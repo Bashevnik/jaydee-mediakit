@@ -1,84 +1,84 @@
-# Site Content Guide — Jaydee Media Kit
+# Тексты сайта — Jaydee Media Kit
 
-All texts from the site, organized by section. Edit anything you'd like to change.
+Все тексты сайта по секциям. Если хочешь что-то поменять — просто напиши рядом свою версию.
 
 ---
 
-## Navigation
+## Навигация (шапка)
 
-| Element | Text |
+| Элемент | Текст |
 |---|---|
-| Logo | Jaydee |
-| Links | About / Content / Audience / Collab |
-| Button | Get in Touch |
+| Логотип | Jaydee |
+| Ссылки | About / Content / Audience / Collab |
+| Кнопка | Get in Touch |
 
 ---
 
-## Hero Section
+## Hero — главный экран
 
-**Tag above name:**
+**Подпись над именем:**
 > Creator Media Kit · 2025
 
-**Name:**
+**Имя:**
 > Jaydee
 
-**Tagline:**
-> Lifestyle & fitness creator from Eastern Europe. Gym-built physique, consistent training — authentic content that connects brands with a young, engaged audience.
+**Описание (tagline):**
+> Lifestyle & fitness creator из Восточной Европы. Зал — это образ жизни, а не просто контент. Настоящая физуха, настоящий стиль — бренды получают живую аудиторию.
 
-**Badges:**
-- 160K — TikTok Followers
-- 16.1K — Instagram Followers
+**Бейджи:**
+- 160K — подписчиков TikTok
+- 16.1K — подписчиков Instagram
 
-**CTA Button:**
+**Кнопка:**
 > Open for collaborations
 
-**Floating stat (on photo):**
-- Label: Weekly Views
-- Number: 726K
+**Плавающий блок на фото:**
+- Подпись: Weekly Views
+- Цифра: 726K
 
-**Gym card (top-right of photo):**
-- Label: Athlete · Creator
-- Title: Built in the Gym
-- Description: Years of consistent training. / Real physique, real lifestyle. / Not just content — a way of life.
+**Карточка на фото (правый верхний угол):**
+- Лейбл: Athlete · Creator
+- Заголовок: Built in the Gym
+- Текст: Years of consistent training. / Real physique, real lifestyle. / Not just content — a way of life.
 
 ---
 
-## About — "Who is Jaydee?"
+## About — «Кто такой Jaydee?»
 
-**Heading:**
+**Заголовок:**
 > Who is Jaydee?
 
-**Text (3 paragraphs):**
+**Текст (3 абзаца):**
 
-> Jaydee is a lifestyle and fitness content creator based in Eastern Europe, with a combined audience of 176,000+ followers across TikTok and Instagram.
+> Jaydee — лайфстайл и фитнес-контент-мейкер из Восточной Европы с суммарной аудиторией 176 000+ подписчиков в TikTok и Instagram.
 
-> Known for authentic, visually compelling videos that blend personal style, physique, and everyday life — the kind of content that stops the scroll and drives real engagement.
+> Аутентичные, визуально сильные видео, где личный стиль, физуха и повседневная жизнь сливаются воедино — контент, который останавливает скролл и вызывает реальное вовлечение.
 
-> With multiple videos crossing 2–6 million views organically, Jaydee has proven ability to make content go viral within a highly engaged Eastern European community.
+> Несколько видео набрали от 2 до 6 миллионов просмотров органически — Jaydee умеет создавать вирусный контент для вовлечённого восточноевропейского комьюнити.
 
-**Tags:**
+**Теги:**
 > Lifestyle / Fitness / Fashion / Personal Style / Trends / Motivation
 
-**Stats card (right side):**
+**Карточка со статистикой (справа):**
 
-| Label | Value |
+| Метка | Значение |
 |---|---|
-| TikTok | 160K followers |
+| TikTok | 160K подписчиков |
 | Weekly Views | 726K |
-| Likes / 7 days | 54K |
-| Shares / 7 days | 6,256 |
-| Instagram | 16.1K followers |
-| Posts | 80 |
-| Top Video | 6.7M views |
+| Likes / 7 дней | 54K |
+| Shares / 7 дней | 6 256 |
+| Instagram | 16.1K подписчиков |
+| Постов | 80 |
+| Топ видео | 6.7M просмотров |
 
 ---
 
-## Stats — "Real Numbers, Real Reach"
+## Stats — «Реальные цифры»
 
-**Heading:**
+**Заголовок:**
 > Real Numbers, Real Reach
 
-| Number | Label | Sub-label |
+| Цифра | Подпись | Подпись 2 |
 |---|---|---|
 | 160K | TikTok Followers | Organic growth |
 | 726K | Weekly Views | +27.8% growth |
@@ -87,124 +87,124 @@ All texts from the site, organized by section. Edit anything you'd like to chang
 
 ---
 
-## Viral Videos
+## Viral Videos — «Вирусные видео»
 
-**Label above heading:** Top Content
+**Надпись над заголовком:** Top Content
 
-**Heading:**
+**Заголовок:**
 > Viral Videos
 
-**Description:**
-> These videos reached millions of viewers organically — no paid promotion, just content that connects.
+**Описание:**
+> Эти видео набрали миллионы просмотров органически — без платного продвижения, просто контент, который цепляет.
 
-**Video cards:**
+**Карточки видео:**
 
-| Video | Views |
+| Видео | Просмотры |
 |---|---|
-| Video 1 | 6.7M TikTok · Views |
-| Video 2 | 4.1M TikTok · Views |
-| Video 3 | 2.5M TikTok · Views |
+| Видео 1 | 6.7M TikTok · Views |
+| Видео 2 | 4.1M TikTok · Views |
+| Видео 3 | 2.5M TikTok · Views |
 
 ---
 
-## Audience
+## Audience — «Аудитория»
 
-**Geography block:**
+**Блок география:**
 
-Label: Audience Geo
+Лейбл: Audience Geo
 
-**Heading:**
+**Заголовок:**
 > Eastern Europe Focus
 
-**Top countries:**
+**Топ стран:**
 
-| Country | % |
+| Страна | % |
 |---|---|
-| 🇺🇦 Ukraine | 43.8% |
-| 🇷🇺 Russia | 9.3% |
-| 🇺🇸 United States | 4.6% |
-| 🇵🇱 Poland | 4.4% |
-| 🇰🇿 Kazakhstan | 4.3% |
-| 🇧🇾 Belarus | 3.2% |
-| 🌍 Other | 20.2% |
+| 🇺🇦 Украина | 43.8% |
+| 🇷🇺 Россия | 9.3% |
+| 🇺🇸 США | 4.6% |
+| 🇵🇱 Польша | 4.4% |
+| 🇰🇿 Казахстан | 4.3% |
+| 🇧🇾 Беларусь | 3.2% |
+| 🌍 Другие | 20.2% |
 
 ---
 
-**Demographics block:**
+**Блок демография:**
 
-Label: Demographics
+Лейбл: Demographics
 
-**Heading:**
+**Заголовок:**
 > Who's Watching
 
-**Age breakdown:**
+**Возраст:**
 
-| Age | % |
+| Возраст | % |
 |---|---|
 | 18–24 | 48.4% |
 | 25–34 | 37.7% |
 | 35–44 | 7.5% |
 | 45+ | 6.4% |
 
-**Gender split:**
-- Male: 49%
-- Female: 50%
+**Пол:**
+- Мужчины: 49%
+- Женщины: 50%
 
-**Audience interests:**
+**Интересы аудитории:**
 > Fitness / Fashion / Lifestyle / Streetwear / Beauty / Travel / Trends
 
 ---
 
-## Collab — "Let's Work Together"
+## Collab — «Давай работать вместе»
 
-**Label:** Collaborations
+**Лейбл:** Collaborations
 
-**Heading:**
+**Заголовок:**
 > Let's Work Together
 
-**Card 1 — TikTok Campaign:**
-> Dedicated video content integrated naturally into Jaydee's regular posting style for maximum authenticity and reach.
+**Карточка 1 — TikTok Campaign:**
+> Рекламный видеоконтент, органично вписанный в обычный стиль публикаций Jaydee — максимальная аутентичность и охват.
 
-List:
-- 1–3 videos per campaign
-- Product integration or review
-- Caption call-to-action
-- Analytics report included
+Список:
+- 1–3 видео на кампанию
+- Интеграция или обзор продукта
+- Призыв к действию в подписи
+- Аналитический отчёт включён
 
-**Card 2 — Instagram Promo:**
-> High-quality posts and Stories showcasing your brand to an engaged and growing audience.
+**Карточка 2 — Instagram Promo:**
+> Качественные посты и Stories, которые покажут твой бренд живой и растущей аудитории.
 
-List:
-- Feed posts + Reels
-- Stories with link
-- Highlights placement
-- Brand mention tagging
+Список:
+- Посты в ленте + Reels
+- Stories со ссылкой
+- Размещение в Highlights
+- Упоминание и тег бренда
 
-**Card 3 — Full Package:**
-> Combined TikTok + Instagram campaign for full-funnel brand exposure across both platforms simultaneously.
+**Карточка 3 — Full Package:**
+> Объединённая кампания TikTok + Instagram — полный охват на обеих платформах одновременно.
 
-List:
-- TikTok + Instagram bundle
-- Cross-platform storytelling
-- Brand alignment review
-- Custom pricing available
+Список:
+- Пакет TikTok + Instagram
+- Кросс-платформенный сторителлинг
+- Проверка соответствия бренду
+- Индивидуальное ценообразование
 
-**Note below cards:**
-> All collaborations are reviewed for brand alignment. Jaydee works with fitness, lifestyle, fashion, and sportswear brands that resonate authentically with a young Eastern European audience aged 18–34.
+**Примечание под карточками:**
+> Все коллаборации проверяются на соответствие бренду. Jaydee работает с брендами в области фитнеса, лайфстайла, моды и спортивной одежды — для молодой восточноевропейской аудитории 18–34 лет.
 
 ---
 
-## Contact — "Ready to Collaborate?"
+## Contact — «Готов к коллаборации?»
 
-**Label:** Contact
+**Лейбл:** Contact
 
-**Heading:**
+**Заголовок:**
 > Ready to Collaborate?
 
-**Subheading:**
-> Reach out via Instagram DM or Telegram to discuss rates, availability, and content concepts.
+**Подзаголовок:**
+> Пиши в Instagram DM или Telegram — обсудим условия, даты и идеи.
 
-**Buttons:**
+**Кнопки:**
 - @jaydeelmao (Instagram)
 - Telegram
 - TikTok
