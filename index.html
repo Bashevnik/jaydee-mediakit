@@ -104,20 +104,20 @@
 
         /* ── HERO ── */
         .hero {
-            min-height: 90vh;
+            height: calc(100vh - 65px);
             display: grid;
             grid-template-columns: 1fr 1.45fr;
-            padding-top: 70px;
         }
 
         .hero-left {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            padding: 7vw 5vw 7vw 8vw;
+            padding: clamp(1.5rem, 4vh, 5rem) 5vw clamp(1.5rem, 4vh, 5rem) 8vw;
             background: var(--white);
             position: relative;
             z-index: 2;
+            overflow: hidden;
         }
 
         .hero-tag {
@@ -125,7 +125,7 @@
             letter-spacing: .2em;
             text-transform: uppercase;
             color: var(--gray);
-            margin-bottom: 2.2rem;
+            margin-bottom: clamp(1rem, 2vh, 2.2rem);
             display: flex;
             align-items: center;
             gap: .8rem;
@@ -146,7 +146,7 @@
             font-weight: 900;
             line-height: .9;
             letter-spacing: -.03em;
-            margin-bottom: 1.8rem;
+            margin-bottom: clamp(.8rem, 1.5vh, 1.8rem);
             animation: fadeUp .7s ease both .2s;
         }
 
@@ -156,7 +156,7 @@
             font-weight: 300;
             max-width: 320px;
             line-height: 1.75;
-            margin-bottom: 3rem;
+            margin-bottom: clamp(1.2rem, 2.5vh, 3rem);
             animation: fadeUp .7s ease both .35s;
         }
 
@@ -164,7 +164,7 @@
             display: flex;
             gap: 1rem;
             flex-wrap: wrap;
-            margin-bottom: 3.5rem;
+            margin-bottom: clamp(1.5rem, 3vh, 3.5rem);
             animation: fadeUp .7s ease both .5s;
         }
 
@@ -943,6 +943,7 @@
         @media (max-width: 960px) {
             .hero {
                 grid-template-columns: 1fr;
+                height: auto;
             }
 
             .hero-right {
@@ -955,6 +956,7 @@
 
             .hero-left {
                 padding: 3rem 6vw 3rem;
+                overflow: visible;
             }
 
             .about-grid {
