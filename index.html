@@ -135,7 +135,6 @@
             display: flex;
             align-items: center;
             gap: .8rem;
-            animation: fadeUp .6s ease both .1s;
         }
 
         .hero-tag::before {
@@ -153,7 +152,6 @@
             line-height: .9;
             letter-spacing: -.03em;
             margin-bottom: clamp(.8rem, 1.5vh, 1.8rem);
-            animation: fadeUp .7s ease both .2s;
         }
 
         .hero-tagline {
@@ -163,7 +161,6 @@
             max-width: 320px;
             line-height: 1.75;
             margin-bottom: clamp(1.2rem, 2.5vh, 3rem);
-            animation: fadeUp .7s ease both .35s;
         }
 
         .hero-badges {
@@ -171,7 +168,6 @@
             gap: 1rem;
             flex-wrap: wrap;
             margin-bottom: clamp(1.5rem, 3vh, 3.5rem);
-            animation: fadeUp .7s ease both .5s;
         }
 
         .badge {
@@ -216,7 +212,6 @@
             position: relative;
             overflow: hidden;
             transition: gap .3s ease, box-shadow .3s ease, border-color .3s ease;
-            animation: fadeUp .7s ease both .65s;
         }
 
         .hero-cta::before {
@@ -358,7 +353,6 @@
             display: flex;
             flex-direction: column;
             gap: .25rem;
-            animation: fadeUp .8s ease both .9s;
         }
 
         .hero-gym-card .gym-tag {
@@ -932,17 +926,35 @@
             text-transform: uppercase;
         }
 
-        /* ── ANIMATIONS ── */
-        @keyframes fadeUp {
-            from {
-                opacity: 0;
-                transform: translateY(24px);
-            }
+        /* ── INTRO OVERLAY ── */
+        #intro-overlay {
+            position: fixed;
+            inset: 0;
+            background: var(--black);
+            z-index: 10000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+        }
 
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+        #intro-logo {
+            font-family: var(--serif);
+            font-size: clamp(2.8rem, 7vw, 5.5rem);
+            font-weight: 900;
+            letter-spacing: -.03em;
+            color: var(--white);
+            opacity: 0;
+            transform: translateY(18px);
+        }
+
+        #intro-line {
+            width: 2rem;
+            height: 2px;
+            background: var(--accent);
+            transform: scaleX(0);
+            transform-origin: left center;
         }
 
         /* ── RESPONSIVE ── */
@@ -1201,6 +1213,23 @@
 </head>
 
 <body>
+
+    <!-- INTRO PRELOADER -->
+    <div id="intro-overlay" aria-hidden="true">
+        <div id="intro-logo">Jaydee</div>
+        <div id="intro-line"></div>
+    </div>
+
+    <!-- noscript: hide overlay and restore all elements if JS is disabled -->
+    <noscript>
+        <style>
+            #intro-overlay { display: none; }
+            nav { transform: none; }
+            .hero-tag, .hero-name, .hero-tagline,
+            .hero-badges, .hero-cta, .hero-gym-card,
+            .hero-float, .hero-right { opacity: 1; }
+        </style>
+    </noscript>
 
     <!-- NAV -->
     <nav>
@@ -1608,6 +1637,12 @@
             </div>
         </div>
     </div>
+
+    <!-- GSAP + ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <!-- Premium animations -->
+    <script src="js/animations.js"></script>
 
     <script>
         (function () {
